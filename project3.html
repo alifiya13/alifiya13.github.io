@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Language Recognition | Alifiya's Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-content">
+            <a href="index.html" class="nav-logo">Alifiya</a>
+            <ul class="nav-links">
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#projects">Projects</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="project-hero">
+        <h1>Real-Time Sign Language Recognition</h1>
+        <a href="https://github.com/alifiya13/Real-Time-Sign-language-recognition" class="github-link">
+            <i class="fab fa-github"></i>
+            GitHub
+        </a>
+    </header>
+
+    <main class="project-content">
+        <section class="content-section">
+            <h2>The Problem</h2>
+            <p>For millions of individuals with hearing and speech impairments, sign language is the primary mode of communication. However, there remains a significant communication gap between sign language users and the broader community, leading to challenges in accessing education, employment, healthcare, and social interactions.</p>
+        </section>
+
+        <section class="content-section">
+            <h2>Solution</h2>
+            <p>The Real-Time Sign Language Recognition System (SLR) addresses these challenges using state-of-the-art computer vision and machine learning techniques.</p>
+            <h3>Key Technical Features:</h3>
+            <ul>
+                <li><strong>Feature Extraction:</strong> Leveraged MediaPipe to extract key hand, face, and pose landmarks (468 facial landmarks, 33 pose landmarks, and 21 landmarks for each hand)</li>
+                <li><strong>Data Processing and Training:</strong> Used LSTM model optimized for sequential video data to recognize temporal patterns in sign gestures</li>
+                <li><strong>Real-Time Prediction:</strong> Implemented a pipeline using OpenCV and MediaPipe's holistic model for live detection</li>
+            </ul>
+        </section>
+
+        <div class="media-gallery">
+            <div class="media-item">
+                <img src="pr3_img2.png" alt="System architecture">
+            </div>
+            <div class="media-item">
+                <img src="pr3_img3.png" alt="Recognition demo">
+            </div>
+        </div>
+
+        <section class="content-section">
+            <h2>Applications</h2>
+            <ul>
+                <li><strong>Education:</strong> Supporting teachers and learners in mastering sign language</li>
+                <li><strong>Healthcare:</strong> Enabling seamless communication between healthcare providers and patients</li>
+                <li><strong>Public Services:</strong> Facilitating interactions in workplaces and customer service</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="connect-section" id="contact">
+        <div class="section">
+            <h2 class="section-title">Let's Connect!</h2>
+            <div class="contact-content">
+                <p>
+                    I'd love to connect with like-minded individuals who share a passion for generative AI, machine learning, and building impactful projects. Let's collaborate to create innovative solutions.
+                </p>
+            </div>
+            <div class="social-links">
+                <a href="https://github.com/alifiya13" class="social-link"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/alifiya-batterywala/" class="social-link"><i class="fab fa-linkedin"></i></a>
+                <a href="batterywalaalifiya13@gmail.com" class="social-link"><i class="far fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
