@@ -26,21 +26,65 @@
 
     <main class="project-content">
         <section class="content-section">
-            <h2>About the Project</h2>
-            <p>This project involves analyzing data from the Quick Service Restaurant (QSR) industry to uncover key insights and trends using Power BI. It showcases advanced data cleaning, modeling, and visualization techniques.</p>
+            <h1>QSR Financial Performance & Cost Analysis Dashboard</h1>
+    
+            <h2>Problem Statement</h2>
+            <p>
+                The project was developed for a leading fast-food chain, <strong>Crunchy Corner</strong>, which operates over 1,000 restaurants across India. The business faced challenges in:
+            </p>
             <ul>
-                <li>Comprehensive KPI dashboards for sales performance</li>
-                <li>Advanced DAX formulas for Pareto and Quadrant analysis</li>
-                <li>Custom visualizations for actionable insights</li>
+                <li>Monitoring financial metrics like net revenue, gross profit, and EBITDA.</li>
+                <li>Identifying high-performing categories, channels, and locations.</li>
+                <li>Optimizing operational and non-operational costs.</li>
+                <li>Conducting financial planning and budgeting effectively.</li>
+            </ul>
+        </section>
+    
+        <section class="content-section">
+            <h2>Solution</h2>
+            <p>
+                I created an interactive Power BI dashboard to address these challenges, focusing on:
+            </p>
+    
+            <h3>Financial Performance Analysis:</h3>
+            <ul>
+                <li>Displayed metrics such as Net Revenue, Gross Profit, and Profit After Tax with year-over-year (YoY) trends.</li>
+                <li>Visualized sales and profitability by categories (e.g., Protein Packs, Frosty Veggies) and regions (e.g., Uttar Pradesh, Maharashtra).</li>
+                <li>Highlighted key trends in SKU performance, enabling the identification of high-contributing products.</li>
+            </ul>
+    
+            <h3>Optimization Through Data Modeling:</h3>
+            <ul>
+                <li>Used Pareto Analysis to identify the top 20% of SKUs contributing to 80% of revenue.</li>
+                <li>Conducted Quadrant Analysis to classify locations and categories based on profitability and sales volume.</li>
+                <li>Built DAX measures to calculate Gross Profit Margins and dynamic KPIs.</li>
+            </ul>
+    
+            <h3>Cost Analysis:</h3>
+            <ul>
+                <li>Broke down fixed and variable costs, such as raw materials and marketing.</li>
+                <li>Presented operational vs. non-operational cost distributions by category and region.</li>
+                <li>Delivered insights for strategic cost reduction and resource allocation.</li>
+            </ul>
+    
+            <h3>Advanced Budgeting:</h3>
+            <ul>
+                <li>Compared actual vs. budgeted financials for key drivers like sales, EBITDA, and marketing costs.</li>
+                <li>Leveraged advanced DAX functions for variance analysis and YoY trend predictions.</li>
             </ul>
         </section>
 
-        <section class="content-section">
+        <section class="content-section interactive-dashboard">
             <h2>Interactive Dashboard</h2>
-            <iframe title="QSR Data Analysis" width="100%" height="600" 
-                src="https://app.powerbi.com/view?r=eyJrIjoiNTBjOWM5MDgtZWFlOS00ZGIzLWE4ZDctYmMyZTc1NDhhODNmIiwidCI6Ijk2NDY0YThhLWY4ZWQtNDBiMS05OWUyLTVmNmI1MGEyMDI1MCIsImMiOjN9" 
-                frameborder="0" allowFullScreen="true">
-            </iframe>
+            <p>Explore the financial performance and cost analysis dashboard for Crunchy Corner. This interactive visualization provides key insights into revenue, costs, and profitability trends.</p>
+            <div class="iframe-container">
+                <iframe 
+                    title="QSR Data Analysis" 
+                    src="https://app.powerbi.com/view?r=eyJrIjoiNTBjOWM5MDgtZWFlOS00ZGIzLWE4ZDctYmMyZTc1NDhhODNmIiwidCI6Ijk2NDY0YThhLWY4ZWQtNDBiMS05OWUyLTVmNmI1MGEyMDI1MCIsImMiOjN9" 
+                    frameborder="0" 
+                    allowFullScreen="true">
+                </iframe>
+            </div>
         </section>
     </main>
 
